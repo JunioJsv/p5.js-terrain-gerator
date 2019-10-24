@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  time += 0.1
+  time += 0.05
   moveX += PI
   translate(moveX, height / 2)
   y = map(noise(time), 0, 1, 0, 95)
